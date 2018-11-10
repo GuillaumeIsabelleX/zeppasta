@@ -16,13 +16,16 @@
     ],
     "main": "./extension",
     "contributes": {
-        "commands": [{
-            "command": "extension.sayHello",
-            "title": "Hello World"
-        },{
-            "command": "extension.sayHello2",
-            "title": "Hello World 2"
-        }]
+        "commands": [
+            {
+                "command": "extension.sayHello",
+                "title": "Hello World"
+            },
+            {
+                "command": "extension.sayHello2",
+                "title": "Hello World 2"
+            }
+        ]
     },
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install",
@@ -34,5 +37,8 @@
         "eslint": "^4.11.0",
         "@types/node": "^8.10.25",
         "@types/mocha": "^2.2.42"
+    },
+    "dependencies": {
+        "clipboardy": "^1.2.3"
     }
 }
