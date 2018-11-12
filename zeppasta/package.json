@@ -12,7 +12,7 @@
     ],
     "activationEvents": [
         "onCommand:extension.sayHello",
-        "onCommand:extension.sayHello2"
+        "onCommand:extension.sayHello3"
     ],
     "main": "./extension",
     "contributes": {
@@ -22,8 +22,8 @@
                 "title": "Hello World"
             },
             {
-                "command": "extension.sayHello2",
-                "title": "Hello World 2"
+                "command": "extension.sayHello3",
+                "title": "Hello World 3"
             }
         ]
     },
@@ -39,6 +39,8 @@
         "@types/mocha": "^2.2.42"
     },
     "dependencies": {
-        "clipboardy": "^1.2.3"
+        "clipboardy": "^1.2.3",
+        "gixstr": "^1.0.1",
+        "tlid": "^1.0.0"
     }
 }

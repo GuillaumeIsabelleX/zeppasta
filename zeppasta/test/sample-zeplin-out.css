@@ -1,0 +1,36 @@
+@idugstart b933a190-e516-11e8-a998-b97f7aca989d
+/* ----@style>---- nchElement_wrapper------------*/.nchElement_wrapper {
+  background-color: #bce0fd;
+}
+
+
+    /* Custom CSS for ID  nchElement_wrapper__l Container */
+    #nchElement_wrapper__l   { 
+     width: 375px;
+     height: 257px;
+   }
+   
+   
+   
+   /* ----@style<---- nchElement_wrapper------------*/
+
+/*
+@starthtml
+<!--START-------- nchElement_wrapper------------ -->
+<div id="nchElement_wrapper__l" class="nchElement_wrapper">
+
+</div > 
+<!--END-------- nchElement_wrapper------------ -->
+@endhtml */
+
+
+ /*
+@starttest
+ TEST AREA ****************** //* Content: *//* Width : 
+    375 
+      left:      0 px;
+      top:      0 px;
+    
+      layer.assets
+        
+    @endtest */
